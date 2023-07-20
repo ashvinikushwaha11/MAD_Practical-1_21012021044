@@ -1,7 +1,8 @@
 fun main() {
-    val b=90
-    val a = if (b % 2==0)
-       println("even number");
+    print("enter number: ")
+    var num = readLine()!!.toInt()
+    val a = if (num % 2==0)
+       println("$num is even number");
     else
-        println("odd number");
+        println("$num is odd number");
 }
