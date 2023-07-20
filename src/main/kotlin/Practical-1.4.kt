@@ -1,4 +1,5 @@
-fun main() {
+fun main()
+{
     print("enter number: ")
     var num = readLine()!!.toInt()
     val a = if (num % 2==0)
