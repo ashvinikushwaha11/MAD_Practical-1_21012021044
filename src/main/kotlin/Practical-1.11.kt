@@ -44,15 +44,14 @@ class Matrix(var data: Array<IntArray>) {
     }
 }
 fun main() {
-    val firstMatrix = Matrix(arrayOf(intArrayOf(1, 2, 3), intArrayOf(6,7,8)))
     val secondMatrix = Matrix(arrayOf(intArrayOf(2, 5), intArrayOf(-3, 0), intArrayOf(0, 4)))
     val secondMatrix1 = Matrix(arrayOf(intArrayOf(2, 5), intArrayOf(1, 3), intArrayOf(5, 1)))
     println("21012021044")
     println("********** Addition **********")
     println("Matrix : 1 ")
-    println(secondMatrix1)
-    println("Matrix : 2 ")
     println(secondMatrix)
+    println("Matrix : 2 ")
+    println(secondMatrix1)
     val thirdMatrix = secondMatrix1 + secondMatrix
     println("Addition : ")
     println(thirdMatrix)
@@ -66,10 +65,10 @@ fun main() {
     println(subtractMatrix)
     println("********** Multiplication **********")
     println("Matrix : 1 ")
-    println(firstMatrix)
+    println(secondMatrix)
     println("Matrix : 2 ")
     println(secondMatrix)
-    val multiplication = firstMatrix * secondMatrix
+    val multiplication = secondMatrix * secondMatrix
     println("Multiplication : ")
     println(multiplication)
 }
