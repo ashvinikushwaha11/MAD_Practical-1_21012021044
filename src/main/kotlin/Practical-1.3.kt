@@ -1,20 +1,20 @@
 fun main() {
     print("Enter Enroll: ")
-    var enroll = readLine()
+    var enroll = readLine()!!
     print("Enter name: ")
-    var name= readLine().toString()
+    var name= readLine()!!.toString()
     print("Enter branch: ")
-    var branch = readLine().toString()
+    var branch = readLine()!!.toString()
     print("Enter Class: ")
-    var Class = readLine()
+    var Class = readLine()!!
     print("Enter Batch: ")
-    var batch = readLine()
+    var batch = readLine()!!
     print("College Name: ")
-    var c_name = readLine()
+    var c_name = readLine()!!
     print("University Name: ")
-    var u_name = readLine()
+    var u_name = readLine()!!
     print("Age: ")
-    var age = readLine()
+    var age = readLine()!!
 
     println("**************\n\nStudent Data:")
     println("Enrollment No.: $enroll")
